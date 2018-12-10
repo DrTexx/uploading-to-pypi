@@ -6,13 +6,13 @@ __NOTE__: ALL COMMANDS EXECUTED WHILE IN ROOT DIRECTORY
    
     (no commands, only script editting)
     
-    _example_: `version='0.1b3'`
+    ![Example](Example-Tag-V3.svg) `version='0.1b3'`
 
 2. Create a new git tag for the version (this should match the one in setup.py)
 
         $ git tag <version> -m "<version message/note>"
 
-   example: `$ git tag 0.1b3 -m "improved documentation"`
+   ![Example](Example-Tag-V3.svg) `$ git tag 0.1b3 -m "improved documentation"`
 
 3. Sync local tags to github
 
