@@ -23,14 +23,11 @@ __NOTE__: ALL COMMANDS EXECUTED WHILE IN ROOT DIRECTORY
 
    ![Warning](Warning-Tag-V3.svg) Do not run this command while Dropbox sync is active on Windows, it may break stuff!
 
-1. Upload the wheel to testpypi
+1. Upload the wheel to testpypi (https://test.pypi.org/legacy/)
 
         $ twine upload --repository test dist/*
 
-   [url]: https://test.pypi.org/legacy/
-
-1. Upload the wheel to pypi
+1. Upload the wheel to pypi (https://upload.pypi.org/legacy/)
 
         $ twine upload --repository pypi dist/*
-
-   [url]: https://upload.pypi.org/legacy/
+        
