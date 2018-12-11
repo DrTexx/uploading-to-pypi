@@ -7,20 +7,15 @@ __NOTE__: ALL COMMANDS EXECUTED WHILE IN ROOT DIRECTORY
    ![Example](Example-Tag-V3.svg) `$ pytest`
 
 1. Update the value of 'version' in setup.py
-   
-    (no commands, only script editting)
     
     ![Example](Example-Tag-V3.svg) `version='0.1b3'`
 
-1. Create a new git tag for the version (this should match the one in setup.py)
+1. Create a new git tag for the version and push (this should match the one in setup.py)
 
         $ git tag <version> -m "<version message/note>"
+        $ git push --tags origin master
 
    ![Example](Example-Tag-V3.svg) `$ git tag 0.1b3 -m "improved documentation"`
-
-1. Sync local tags to github
-
-        $ git push --tags origin master
 
 1. Create a wheel for current version
 
